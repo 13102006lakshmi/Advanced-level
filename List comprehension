@@ -1,0 +1,8 @@
+# Normal way
+nums = []
+for i in range(1, 6):
+    nums.append(i*i)
+
+# List comprehension
+nums = [i*i for i in range(1, 6)]
+print(nums)
