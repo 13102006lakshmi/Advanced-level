@@ -1,0 +1,8 @@
+def my_gen(n):
+    for i in range(n):
+        yield i
+
+g = my_gen(5)
+
+for value in g:
+    print(value)
